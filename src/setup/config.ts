@@ -2,9 +2,10 @@ import {
   APP_VERSION,
   BACKEND_URL,
   DISCORD_LINK,
-  GITHUB_LINK,
   EMAIL_LINK,
+  GITHUB_LINK,
 } from "./constants";
+
 
 interface Config {
   APP_VERSION: string;
