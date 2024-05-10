@@ -18,7 +18,6 @@ function Divider() {
 function GoToLink(props: {
   children: React.ReactNode;
   href?: string;
-  target?: string;
   className?: string;
   onClick?: () => void;
 }) {
@@ -75,7 +74,6 @@ function CircleDropdownLink(props: { icon: Icons; href: string }) {
   return (
     <GoToLink
       href={props.href}
-      target="_blank"
       className="tabbable w-11 h-11 rounded-full bg-dropdown-contentBackground text-dropdown-text hover:text-white transition-colors duration-100 flex justify-center items-center"
     >
       <Icon className="text-2xl" icon={props.icon} />
@@ -164,7 +162,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
             />
             <CircleDropdownLink href={conf().GITHUB_LINK} icon={Icons.GITHUB} />
             <CircleDropdownLink href={conf().EMAIL_LINK} icon={Icons.MAIL} />
-            <CircleDropdownLink href="/support" icon={Icons.CIRCLE_QUESTION} />
+            <CircleDropdownLink href="/support" icon={Icons.MAIL} />
           </div>
         </div>
       </Transition>
