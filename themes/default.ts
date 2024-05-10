@@ -159,7 +159,7 @@ export const defaultTheme = {
 
       // typography
       type: {
-        logo: tokens.purple.c100,
+        logo: tokens.semantic.green.c100,
         emphasis: tokens.white,
         text: tokens.shade.c50,
         dimmed: tokens.shade.c50,
