@@ -1,12 +1,12 @@
 {
-  "name": "sudo-flix",
-  "short_name": "sudo-flix",
+  "name": "Essential",
+  "short_name": "Essential",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#120f1d",
   "lang": "en",
   "scope": "/",
-  "description": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
+  "description": "An Essential To Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
   "theme_color": "#120f1d",
   "icons": [
     {

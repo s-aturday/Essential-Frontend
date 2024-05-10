@@ -67,9 +67,9 @@ export default defineConfig(({ mode }) => {
           "safari-pinned-tab.svg",
         ],
         manifest: {
-          name: "sudo-flix",
-          short_name: "sudo-flix",
-          description: "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
+          name: "Essential",
+          short_name: "Essential",
+          description: "An Essential To Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
           theme_color: "#120f1d",
           background_color: "#120f1d",
           display: "standalone",

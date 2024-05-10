@@ -95,10 +95,10 @@ export function SupportPage() {
             <Button
               className="py px-4 box-content bg-buttons-secondary hover:bg-buttons-secondaryHover bg-opacity-90 text-buttons-secondaryText justify-center items-center inline-block"
               onClick={() =>
-                window.open("https://sussy-code.github.io/docs", "_blank")
+                window.open("https://docs.essential.wtf", "_blank")
               }
             >
-              Sudo-Flix Docs
+              Essential Docs
             </Button>
           </div>
         </Paragraph>
@@ -106,12 +106,12 @@ export function SupportPage() {
           items={[
             <Item title={t("support.q1.title")}>
               <Trans i18nKey="support.q1.body">
-                <MwLink to="https://discord.gg/r5cYshWM4G" />
+                <MwLink to="https://discord.gg/Q4ecj2Zshp" />
               </Trans>
             </Item>,
             <Item title={t("support.q2.title")}>
               <Trans i18nKey="support.q2.body">
-                <MwLink to="https://github.com/sussy-code/smov" />
+                <MwLink to="https://source.essential.wtf" />
               </Trans>
             </Item>,
           ]}
