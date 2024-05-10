@@ -115,6 +115,6 @@ export function conf(): RuntimeConfig {
           .map((s) => s.trim())
           .filter((s) => s.length > 0),
       )
-      .filter((v) => v.length === 2), // The format is <beforeA>:<afterA>,<beforeB>:<afterB>
+      .filter((v) => v.length === 2), // The format is <beforeA>:<afterA>,<beforeB>:<afterB> f
   };
 }
