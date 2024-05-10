@@ -3,7 +3,7 @@ import {
   BACKEND_URL,
   DISCORD_LINK,
   GITHUB_LINK,
-  TWITTER_LINK,
+  EMAIL_LINK,
 } from "./constants";
 
 interface Config {
@@ -11,7 +11,7 @@ interface Config {
   GITHUB_LINK: string;
   DISCORD_LINK: string;
   DMCA_EMAIL: string;
-  TWITTER_LINK: string;
+  EMAIL_LINK: string;
   TMDB_READ_API_KEY: string;
   CORS_PROXY_URL: string;
   NORMAL_ROUTER: boolean;
@@ -31,7 +31,7 @@ export interface RuntimeConfig {
   GITHUB_LINK: string;
   DISCORD_LINK: string;
   DMCA_EMAIL: string | null;
-  TWITTER_LINK: string;
+  EMAIL_LINK: string;
   TMDB_READ_API_KEY: string | null;
   NORMAL_ROUTER: boolean;
   PROXY_URLS: string[];
@@ -51,7 +51,7 @@ const env: Record<keyof Config, undefined | string> = {
   APP_VERSION: undefined,
   GITHUB_LINK: undefined,
   DISCORD_LINK: undefined,
-  TWITTER_LINK: undefined,
+  EMAIL_LINK: undefined,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK:
     "https://docs.sudo-flix.lol/extension",
   ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: import.meta.env
@@ -93,7 +93,7 @@ export function conf(): RuntimeConfig {
     APP_VERSION,
     GITHUB_LINK,
     DISCORD_LINK,
-    TWITTER_LINK,
+    EMAIL_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
       "ONBOARDING_CHROME_EXTENSION_INSTALL_LINK",

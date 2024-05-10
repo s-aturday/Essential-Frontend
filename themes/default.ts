@@ -14,6 +14,18 @@ const tokens = {
       c300: "#31A33C",
       c400: "#237A2B",
     },
+    dark: {
+      c100: "#121212",
+      c200: "#0D0D0D",
+      c300: "#080808",
+      c400: "#050505",
+    },
+    gray: {
+      c100: "#7F8D9B",
+      c200: "#5B6B7B",
+      c300: "#445464",
+      c400: "#2B3D4E",
+    },
     silver: {
       c100: "#DEDEDE",
       c200: "#B6CAD7",
@@ -88,29 +100,28 @@ export const defaultTheme = {
   extend: {
     colors: {
       themePreview: {
-        primary: tokens.blue.c200,
-        secondary: tokens.shade.c50,
+        primary: tokens.semantic.green.c200,
+        secondary: tokens.semantic.gray.c100,
         ghost: tokens.white,
       },
 
       // Branding
       pill: {
-        background: tokens.shade.c300,
-        backgroundHover: tokens.shade.c200,
-        highlight: tokens.blue.c200,
-
-        activeBackground: tokens.shade.c300,
+        background: tokens.semantic.gray.c300,
+        backgroundHover: tokens.semantic.gray.c200,
+        highlight: tokens.semantic.green.c200,
+        activeBackground: tokens.semantic.gray.c300,
       },
 
       // meta data for the theme itself
       global: {
-        accentA: tokens.blue.c200,
-        accentB: tokens.blue.c300,
+        accentA: tokens.semantic.green.c200,
+        accentB: tokens.semantic.green.c300,
       },
 
       // light bar
       lightBar: {
-        light: tokens.blue.c400,
+        light: tokens.semantic.green.c400,
       },
 
       // Buttons
@@ -134,16 +145,16 @@ export const defaultTheme = {
 
       // only used for body colors/textures
       background: {
-        main: tokens.shade.c900,
-        secondary: tokens.shade.c600,
-        secondaryHover: tokens.shade.c400,
-        accentA: tokens.purple.c500,
+        main: tokens.semantic.dark.c400,
+        secondary: tokens.semantic.dark.c300,
+        secondaryHover: tokens.semantic.dark.c200,
+        accentA: tokens.semantic.green.c200,
         accentB: tokens.blue.c500,
       },
 
       // Modals
       modal: {
-        background: tokens.shade.c800,
+        background: tokens.semantic.dark.c300,
       },
 
       // typography
@@ -194,7 +205,7 @@ export const defaultTheme = {
         altBackground: tokens.shade.c700,
         hoverBackground: tokens.shade.c500,
         highlight: tokens.semantic.yellow.c400,
-        highlightHover: tokens.semantic.yellow.c200,
+        highlightHover: tokens.semantic.green.c200,
         text: tokens.shade.c50,
         secondary: tokens.shade.c100,
         border: tokens.shade.c400,
