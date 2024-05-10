@@ -81,7 +81,7 @@ export function Footer() {
           <FooterLink icon={Icons.DISCORD} href={conf().DISCORD_LINK}>
             {t("footer.links.discord")}
           </FooterLink>
-          <FooterLink icon={Icons.MAIL} href={conf().EMAIL_LINK} target="_blank">
+          <FooterLink icon={Icons.MAIL} href={conf().EMAIL_LINK}>
             {t("Email")}
           </FooterLink>
           <div className="inline md:hidden">
