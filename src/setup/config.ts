@@ -6,7 +6,6 @@ import {
   GITHUB_LINK,
 } from "./constants";
 
-
 interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
@@ -76,7 +75,6 @@ function coerceUndefined(value: string | null | undefined): string | undefined {
   return value;
 }
 
-// loads from different locations, in order: environment (VITE_{KEY}), window (public/config.js)
 function getKeyValue(key: keyof Config): string | undefined {
   const windowValue = (window as any)?.__CONFIG__?.[`VITE_${key}`];
 
