@@ -70,7 +70,7 @@ export default defineConfig(({ mode }) => {
           name: "Essential",
           short_name: "Essential",
           description: "An Essential To Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
-          theme_color: "#120f1d",
+          theme_color: "#00FF00",
           background_color: "#120f1d",
           display: "standalone",
           start_url: "/",
