@@ -71,7 +71,7 @@ export default defineConfig(({ mode }) => {
           short_name: "Essential",
           description: "An Essential To Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
           theme_color: "#00FF00",
-          background_color: "#120f1d",
+          background_color: "#00FF00",
           display: "standalone",
           start_url: "/",
           icons: [
