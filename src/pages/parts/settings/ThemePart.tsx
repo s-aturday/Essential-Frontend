@@ -30,6 +30,11 @@ const availableThemes = [
     selector: "theme-gray",
     key: "settings.appearance.themes.gray",
   },
+  {
+    id: "pink",
+    selector: "theme-pink",
+    key: "settings.appearance.themes.pink",
+  },
 ];
 
 function ThemePreview(props: {
