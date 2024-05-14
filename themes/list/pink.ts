@@ -114,7 +114,7 @@ export default createTheme({
     colors: {
       themePreview: {
         primary: tokens.pink.c200,
-        secondary: tokens.shade.c50
+        secondary: tokens.semantic.dark.c200
       },
 
       pill: {
@@ -135,13 +135,13 @@ export default createTheme({
       },
 
       buttons: {
-        toggle: tokens.pink.c300,
+        toggle: tokens.pink.c200,
         toggleDisabled: tokens.ash.c500,
 
         secondary: tokens.ash.c700,
         secondaryHover: tokens.ash.c700,
-        purple: tokens.pink.c500,
-        purpleHover: tokens.pink.c400,
+        purple: tokens.pink.c100,
+        purpleHover: tokens.pink.c100,
         cancel: tokens.ash.c500,
         cancelHover: tokens.ash.c300
       },
