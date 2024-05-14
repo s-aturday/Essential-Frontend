@@ -74,11 +74,11 @@ export default createTheme({
       },
 
       pill: {
-        background: tokens.shade.c300,
+        background: tokens.shade.c200,
         backgroundHover: tokens.shade.c200,
         highlight: tokens.pink.c200,
 
-        activeBackground: tokens.shade.c300,
+        activeBackground: tokens.shade.c200,
       },
 
       global: {
@@ -87,7 +87,7 @@ export default createTheme({
       },
 
       lightBar: {
-        light: tokens.pink.c400
+        light: tokens.pink.c200
       },
 
       buttons: {
@@ -103,11 +103,11 @@ export default createTheme({
       },
 
       background: {
-        main: tokens.shade.c900,
+        main: tokens.ash.c900,
         secondary: tokens.shade.c600,
         secondaryHover: tokens.shade.c400,
         accentA: tokens.shade.c500,
-        accentB: tokens.pink.c500
+        accentB: tokens.pink.c200
       },
 
       modal: {
