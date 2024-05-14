@@ -1,6 +1,50 @@
 import { createTheme } from "../types";
 
 const tokens = {
+  semantic: {
+    red: {
+      c100: "#F46E6E",
+      c200: "#E44F4F",
+      c300: "#D74747",
+      c400: "#B43434",
+    },
+    green: {
+      c100: "#60D26A",
+      c200: "#40B44B",
+      c300: "#31A33C",
+      c400: "#237A2B",
+    },
+    dark: {
+      c100: "#121212",
+      c200: "#0D0D0D",
+      c300: "#080808",
+      c400: "#050505",
+    },
+    gray: {
+      c100: "#7F8D9B",
+      c200: "#5B6B7B",
+      c300: "#445464",
+      c400: "#2B3D4E",
+    },
+    silver: {
+      c100: "#DEDEDE",
+      c200: "#B6CAD7",
+      c300: "#8EA3B0",
+      c400: "#617A8A",
+    },
+    yellow: {
+      c100: "#FFF599",
+      c200: "#FCEC61",
+      c300: "#D8C947",
+      c400: "#AFA349",
+    },
+    rose: {
+      c100: "#DB3D61",
+      c200: "#8A293B",
+      c300: "#812435",
+      c400: "#701B2B",
+    },
+  },
   pink: {
     c50: "#ffe0f0",
     c100: "#ffb3d1",
@@ -51,16 +95,16 @@ const tokens = {
     c900: "#111111"
   },
   blue: {
-    c50: "#ccccd6",
-    c100: "#a2a2a2",
-    c200: "#868686",
-    c300: "#646464",
-    c400: "#4e4e4e",
-    c500: "#383838",
-    c600: "#2e2e2e",
-    c700: "#272727",
-    c800: "#181818",
-    c900: "#0f0f0f"
+    c50: "#ADADF5",
+    c100: "#7979CC",
+    c200: "#5D5DAE",
+    c300: "#3B3B8C",
+    c400: "#2A2A71",
+    c500: "#1F1F50",
+    c600: "#1B1B41",
+    c700: "#171736",
+    c800: "#101020",
+    c900: "#0B0B13",
   }
 };
 
@@ -103,11 +147,11 @@ export default createTheme({
       },
 
       background: {
-        main: tokens.ash.c900,
-        secondary: tokens.shade.c600,
-        secondaryHover: tokens.shade.c400,
+        main: tokens.semantic.dark.c400,
+        secondary: tokens.semantic.dark.c300,
+        secondaryHover: tokens.semantic.dark.c200,
         accentA: tokens.pink.c200,
-        accentB: tokens.blue.c500
+        accentB: tokens.blue.c500,
       },
 
       modal: {
@@ -245,7 +289,7 @@ export default createTheme({
           light: tokens.shade.c50,
           border: tokens.ash.c600,
           hoverColor: tokens.ash.c600,
-          buttonFocus: tokens.ash.c500,
+          buttonFocus: tokens.ash.c200,
           flagBg: tokens.ash.c500,
           inputBg: tokens.ash.c600,
           buttonOverInputHover: tokens.ash.c500,
