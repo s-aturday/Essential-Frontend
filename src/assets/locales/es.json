@@ -466,7 +466,8 @@
         "default": "Predeterminado",
         "gray": "Gris",
         "red": "Rojo",
-        "teal": "Turquesa"
+        "teal": "Turquesa",
+        "pink": "Pink"
       },
       "title": "Apariencia"
     },

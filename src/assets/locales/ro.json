@@ -464,7 +464,8 @@
         "default": "Implicit",
         "gray": "Gri",
         "red": "Roșu",
-        "teal": "Albastru verziu"
+        "teal": "Albastru verziu",
+        "pink": "Pink"
       },
       "title": "Aparență"
     },

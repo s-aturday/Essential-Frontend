@@ -476,7 +476,8 @@
         "default": "Privzeto",
         "gray": "Siva",
         "red": "Rdeča",
-        "teal": "Turkizna"
+        "teal": "Turkizna",
+        "pink": "Pink"
       },
       "title": "Izgled"
     },

@@ -476,7 +476,8 @@
         "default": "Défaut",
         "gray": "Gris",
         "red": "Rouge",
-        "teal": "Bleu canard"
+        "teal": "Bleu canard",
+        "pink": "Pink"
       },
       "title": "Apparence"
     },

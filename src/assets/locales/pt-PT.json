@@ -381,7 +381,8 @@
         "default": "Padrão",
         "gray": "Cinzento",
         "red": "Vermelho",
-        "teal": "Verde-azulado"
+        "teal": "Verde-azulado",
+        "pink": "Pink"
       },
       "title": "Aparência"
     },

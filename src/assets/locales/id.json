@@ -441,7 +441,8 @@
         "default": "Default",
         "gray": "Abu",
         "red": "Merah",
-        "teal": "Hijau"
+        "teal": "Hijau",
+        "pink": "Pink"
       },
       "title": "Tampilan"
     },

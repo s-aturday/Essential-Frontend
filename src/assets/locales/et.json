@@ -474,7 +474,8 @@
         "default": "Vaikimisi",
         "gray": "Hall",
         "red": "Punane",
-        "teal": "Tumesinine"
+        "teal": "Tumesinine",
+        "pink": "Pink"
       },
       "title": "Välimus"
     },

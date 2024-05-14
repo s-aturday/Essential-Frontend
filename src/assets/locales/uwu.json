@@ -525,7 +525,8 @@
         "default": "Default",
         "gray": "Gray",
         "red": "Red",
-        "teal": "Teal"
+        "teal": "Teal",
+        "pink": "Pink"
       },
       "title": "Appeawance"
     },

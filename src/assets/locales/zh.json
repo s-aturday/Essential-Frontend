@@ -472,7 +472,8 @@
         "default": "默认",
         "gray": "灰色",
         "red": "红色",
-        "teal": "青色"
+        "teal": "青色",
+        "pink": "Pink"
       },
       "title": "外观"
     },

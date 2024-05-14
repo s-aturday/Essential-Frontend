@@ -461,7 +461,8 @@
         "default": "Výchozí",
         "gray": "Šedá",
         "red": "Červená",
-        "teal": "Modrozelená"
+        "teal": "Modrozelená",
+        "pink": "Pink"
       },
       "title": "Vzhled"
     },

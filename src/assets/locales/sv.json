@@ -350,7 +350,8 @@
         "default": "Standard",
         "gray": "Grå",
         "red": "Röd",
-        "teal": "Blågrön"
+        "teal": "Blågrön",
+        "pink": "Pink"
       },
       "title": "Utseende"
     },

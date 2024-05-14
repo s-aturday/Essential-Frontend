@@ -464,7 +464,8 @@
         "default": "기본",
         "gray": "그레",
         "red": "레드",
-        "teal": "청록"
+        "teal": "청록",
+        "pink": "Pink"
       },
       "title": "외관"
     },

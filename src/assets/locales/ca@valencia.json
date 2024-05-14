@@ -464,7 +464,8 @@
         "default": "Per defecte",
         "gray": "Gris",
         "red": "Vermell",
-        "teal": "Verd blavós"
+        "teal": "Verd blavós",
+        "pink": "Pink"
       },
       "title": "Aparença"
     },

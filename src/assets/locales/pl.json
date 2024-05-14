@@ -466,7 +466,8 @@
         "default": "Domyślny",
         "gray": "Szary",
         "red": "Czerwony",
-        "teal": "Morski"
+        "teal": "Morski",
+        "pink": "Pink"
       },
       "title": "Wygląd"
     },

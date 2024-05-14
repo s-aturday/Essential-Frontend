@@ -26,14 +26,14 @@ const availableThemes = [
     key: "settings.appearance.themes.red",
   },
   {
-    id: "gray",
-    selector: "theme-gray",
-    key: "settings.appearance.themes.gray",
-  },
-  {
     id: "pink",
     selector: "theme-pink",
     key: "settings.appearance.themes.pink",
+  },
+  {
+    id: "gray",
+    selector: "theme-gray",
+    key: "settings.appearance.themes.gray",
   },
 ];
 

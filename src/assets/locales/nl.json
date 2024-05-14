@@ -474,7 +474,8 @@
         "default": "Standaard",
         "gray": "Grijs",
         "red": "Rood",
-        "teal": "Groenblauw"
+        "teal": "Groenblauw",
+        "pink": "Pink"
       },
       "title": "Uiterlijk"
     },

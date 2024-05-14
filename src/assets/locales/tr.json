@@ -474,7 +474,8 @@
         "default": "Varsayılan",
         "gray": "Gri",
         "red": "Kırmızı",
-        "teal": "Turkuaz"
+        "teal": "Turkuaz",
+        "pink": "Pink"
       },
       "title": "Görünüm"
     },
