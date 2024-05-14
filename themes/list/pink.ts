@@ -140,8 +140,8 @@ export default createTheme({
 
         secondary: tokens.ash.c700,
         secondaryHover: tokens.ash.c700,
-        purple: tokens.pink.c100,
-        purpleHover: tokens.pink.c100,
+        purple: tokens.pink.c300,
+        purpleHover: tokens.pink.c400,
         cancel: tokens.ash.c500,
         cancelHover: tokens.ash.c300
       },
